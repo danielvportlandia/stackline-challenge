@@ -1,0 +1,22 @@
+@import 'vars';
+@import 'mixins';
+
+body {
+  @include background-size(cover);
+
+  background-color: $color-one;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  font-family: $roboto;
+}
+
+.icomoon-svgs {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+
+  path:hover {
+    fill: $color-three;
+  }
+}

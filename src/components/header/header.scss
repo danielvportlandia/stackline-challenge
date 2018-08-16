@@ -1,0 +1,13 @@
+@import '../../style/vars';
+
+header {
+  background-color: white;
+  text-align: left;
+  height: 4rem;
+
+  a {
+    img {
+      margin: 1rem 0 0.5rem 1rem;
+    }
+  }
+}

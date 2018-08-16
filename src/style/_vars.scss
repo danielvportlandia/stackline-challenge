@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+// -------------------------------------------------------------------------
+// TYPOGRAPHY
+// -------------------------------------------------------------------------
+$roboto: 'Roboto', sans-serif;
+// -------------------------------------------------------------------------
+// COLORS
+// -------------------------------------------------------------------------
+$color-one: #f6f8fa;
+$color-two: #9aa8bb;
+$color-three: #8ac9fc;
+  
+// -------------------------------------------------------------------------
+// MEDIA QUERIES
+// -------------------------------------------------------------------------
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 320px;
+$screen-sm-max: 767px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
